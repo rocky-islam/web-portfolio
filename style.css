@@ -1,9 +1,23 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    ;
+}
+
+p {
+    color: dimgray;
+}
+
+section {
+    margin-bottom: 200px;
 }
 
 .name-highlight {
@@ -19,4 +33,27 @@ h1 {
 
 .half-width img {
     width: 100%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
